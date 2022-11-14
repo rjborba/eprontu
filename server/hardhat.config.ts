@@ -6,10 +6,10 @@ const config: HardhatUserConfig = {
   defaultNetwork: "eprontu",
   networks: {
     eprontu: {
-      url: `http://100.64.0.113:8545/`,
+      url: `http://127.0.0.1:8545/`,
       accounts: [
-        "0decfa4f9642de0fe676d9f36e9ccc13399074357270294be8a818eee5c84b95",
-        "0b238ada60ed23bcc8feacaba091a802baddbe2d8419aeae914255df069b92ae",
+        "ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80",
+        "59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d",
       ],
     },
   },
